@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pseudo {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  /* display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: nowrap; */
+}
+
+.pseudo h1::before {
+  content: "~";
+  color: blue;
+}
+
+.pseudo h1::after {
+  content: "~";
+  background-color: brown;
+}
